@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, Ubuntu, serif;
+  background-image: url('../images/cardboard.png');
+}
+#outer-wrapper {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 960px;
+  background-color: #F9F7ED;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#inner-wrapper {
+
+  margin-top: 50px;
+}
+
+header {
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+}
+nav {
+  float: left;
+  background-color: green;
+  margin: 0px 0px 50px 0px; 
+}
+#content {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+}
+aside {
+  background-color: green;  
+  float: right;
+}
+aside li {
+  list-style-type: none;
+
+}
+footer {
+  background-color: red;
+  clear: both;
+  text-align: center;
+}
