@@ -64,12 +64,18 @@ nav li {
 }
 #content #ansvar td {
     text-align: center;
-  }
+}
 #content th {
   border: 1px solid black;
 }
 #content td {
   border-bottom: 1px solid black;
+}
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
 }
 aside {
   float: right;
