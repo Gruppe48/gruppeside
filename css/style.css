@@ -71,10 +71,10 @@ nav li {
 #content td {
   border-bottom: 1px solid black;
 }
-#green {
+.green {
   background-color: green;
 }
-#red {
+.red {
   background-color: red;
 }
 aside {
