@@ -14,7 +14,13 @@ body {
 #inner-wrapper {
   background-color: #F9F7ED;
 }
-
+h1 {
+  font-size: 24px;
+  border-bottom: 1px solid #CCC;
+}
+h2 {
+  font-size: 22px;
+}
 header {
   background-color: red;
   border-top-left-radius: 50px;
@@ -26,7 +32,7 @@ nav {
   float: left;
   border-right-style: dotted;
   border-width: 1px;
-  height: 1000px;
+  height: inherit;
   padding: 5px;
 }
 nav a {
