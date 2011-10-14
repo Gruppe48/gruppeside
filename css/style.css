@@ -8,12 +8,11 @@ body {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   width: 960px;
-  background-color: #F9F7ED;
   margin: 0 auto;
   margin-top: 100px;
 }
 #inner-wrapper {
-
+  background-color: #F9F7ED;
 }
 
 header {
@@ -27,8 +26,11 @@ nav {
   float: left;
   border-right-style: dotted;
   border-width: 1px;
-  height: 500px;
+  height: 1000px;
   padding: 5px;
+}
+nav a {
+  text-decoration: none;
 }
 nav ul {
   padding: 0;
@@ -40,10 +42,28 @@ nav li {
   margin: 0;
 }
 #content {
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-left: 100px;
   margin-left: 100px;
   margin-right: 100px;
   font-size: 18px;
+}
+#validering {
+  text-align: center;
+}
+#content table {
+  border-collapse: collapse;
+  border-style: dashed;
+  border-width: 1px;
+}
+#content #ansvar td {
+    text-align: center;
+  }
+#content th {
+  border: 1px solid black;
+}
+#content td {
+  border-bottom: 1px solid black;
 }
 aside {
   float: right;

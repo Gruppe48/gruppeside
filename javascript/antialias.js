@@ -1,0 +1,1 @@
+$("body").css("-webkit-font-smoothing", "antialiased");
