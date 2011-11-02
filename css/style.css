@@ -5,11 +5,8 @@ body {
   background-image: url('../images/cardboard.png');
 }
 #outer-wrapper {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 100px;
 }
 #inner-wrapper {
   background-color: #F9F7ED;
@@ -23,15 +20,11 @@ h2 {
 }
 header {
   background-color: red;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
   text-align: center;
   margin-bottom: -19px;
 }
 nav {
   float: left;
-  border-right-style: dotted;
-  border-width: 1px;
   height: inherit;
   padding: 5px;
 }
