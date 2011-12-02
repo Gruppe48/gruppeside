@@ -46,6 +46,7 @@ nav li {
   margin-left: 100px;
   margin-right: 100px;
   font-size: 18px;
+  
 }
 #validering {
   text-align: center;
@@ -82,4 +83,27 @@ footer {
   background-color: red;
   clear: both;
   text-align: center;
+}
+
+a:hover{
+  
+  background-color: #5CB3FF;
+}
+
+#Innholdsfortegnelse{
+  background-color: #eee;
+  border: 1px solid #000;
+  width: 500px;
+}
+
+#tiltopp{
+  position:fixed;
+  float:left;
+  left: 15px;
+  bottom: 20px;
+}
+
+#tiltopp a{
+  border: 1px solid #000;
+  padding: 5px;
 }
